@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+.navBar{
+    display: flex;
+   align-items: center;
+    background: #000;
+    color: white;
+    height: 6vh;
+}
+
+.unorderedList{
+    margin: 0 50px;
+}
+
+.navBar ul li{
+    list-style: none;
+}
+
+.searchBox{
+    position: absolute;
+    right: 45px;
+}
+.searchBox input{
+    margin-right: 30px;
+}
+
+.btn{
+    width: 8vw;
+    height: 5vh;
+    color: white;
+    background: rgb(10, 10, 218);
+    border: 2px solid rgb(3, 3, 36);
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#search{
+    border-radius: 8px;
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+}
+
+.heading{
+    margin: 15px;
+}
+
+
+.writing-notes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea{
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.button-for-margin{
+    margin: 20px;
+}
+
+
+.item1{
+    width: 20vw;
+    /* display: flex; */
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+    border: 2px solid green;
+    border-radius: 5px;
+   
+    margin: 5px;
+}
+
+.item button{
+    margin: 10px 0;
+     margin-right: 5px;
+}
